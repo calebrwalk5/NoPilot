@@ -16,7 +16,7 @@ def app():
 
     st.title("NoPilot")
 
-    text = st.text_input("Input code:")
+    text = st.text_input("")
     topk = st.slider("Display Number", 1, 10, 5)
     if text:
         with st.spinner("Loading..."):
