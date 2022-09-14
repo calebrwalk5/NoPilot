@@ -6,7 +6,7 @@ def run():
     print("Reading Code...")
     while True:
         try:
-            text = input(line " | ")
+            text = input(line)
             prediction = gpt2.predict_next(text, 1)
             print("{} {}".format(text, prediction))
             line += 1
