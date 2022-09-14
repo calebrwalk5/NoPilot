@@ -6,8 +6,8 @@ def run():
     print("Reading Code...")
     while True:
         try:
-            text = input("> ")
-            prediction = gpt2.predict_next(text, 5)
+            text = input("1| ")
+            prediction = gpt2.predict_next(text, 1)
             print("{} {}".format(text, prediction))
 
         except KeyError:
